@@ -8,21 +8,25 @@
     <style>
         body {
             font-family: 'Poppins', sans-serif;
-            font-size: 150%;
             margin: 0;
             padding: 0;
             background-color: #F5F5F5;
             color: #1E1E1E;
+            font-size: 20px;
         }
         header {
             background: #0A192F;
             color: white;
             text-align: center;
             padding: 2rem 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
-
-        header img {
-            float: left;
+        .logo {
+            width: 80px;
+            height: auto;
+            margin-right: 15px;
         }
         .container {
             width: 80%;
@@ -43,9 +47,11 @@
 </head>
 <body>
     <header>
-        <img src="./" alt="Chris' Logo" width="100">
-        <h1>Chris (MrRoukou)</h1>
-        <p>Junior Web Developer | Cyber Security Enthusiast</p>
+        <img src="./Logo_transparent.png" alt="Chris' Logo" class="logo">
+        <div>
+            <h1>Chris (MrRoukou)</h1>
+            <p>Junior Web Developer | Cyber Security Enthusiast</p>
+        </div>
     </header>
     
     <div class="container">
@@ -71,7 +77,7 @@
         <section class="section contact">
             <h2>Contact</h2>
             <p>Email: <a href="mailto:christrez@gmail.com">christrez@gmail.com</a></p>
-            <p>LinkedIn: <a href="#">linkedin.com/in/yourprofile</a></p>
+            <p>Facebook: <a href="https://www.facebook.com/chris.tres.39?locale=el_GR">Chris Tres</a></p>
         </section>
     </div>
 </body>
